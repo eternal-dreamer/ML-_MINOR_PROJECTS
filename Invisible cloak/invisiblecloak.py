@@ -16,7 +16,7 @@ while cap.isOpened():
         ur = np.array([130,255,255])
         #highlight only blue colour
         mask = cv2.inRange(hsv,lr,ur)
-        # all thing that is red
+        # all thing that is blue
         part1 =cv2.bitwise_and(back, back , mask=mask)
         
         mask = cv2.bitwise_not(mask)
