@@ -88,7 +88,7 @@ function calEyes() {
 }
 
 ///
-//function to blur the background and add audio effect
+//function to change the background colour into black and white
 function blur() {
   document.body.style.filter = "grayscale(100%)";
   document.body.style.transition = "1s";
@@ -96,7 +96,7 @@ function blur() {
  
 }
 
-//function to remove the blur effect
+//function to remove the grayscale effect
 function removeblur() {
   document.body.style.filter = "grayscale(0%)";
   
